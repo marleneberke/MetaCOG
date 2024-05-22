@@ -1,13 +1,15 @@
 # MetaCOG
 
-This is the repo containing the data and code to accompany the 2024 UAI paper "MetaCOG: AHierarchical Probabilistic Model for Learning Meta-Cognitive Visual Representations."
+This is the repo containing the data and code to accompany the 2024 UAI paper "MetaCOG: AHierarchical Probabilistic Model for Learning Meta-Cognitive Visual Representations" by Marlene Berke, Zhangir Azerbayev, Mario Belledonne, Zenna Tavares, and Julian Jara-Ettinger.
 
 The gif below shows the output of the neural object detector Faster R-CNN on a scene from our dataset. 
 ![faster_rcnn_scene6.gif](demos/faster_rcnn_scene6.gif)
+
 Note how the TV is rarely detected, and it is once mistaken for a chair. Faster R-CNN also "hallucinates" TVs in the background of the scene.
 
 Using only these detections output by Faster R-CNN plus the camera trajectory, MetaCOG is able to successfully infer what objects are where in the scene:
 ![metacog_faster_rcnn_scene6.gif](demos/metacog_faster_rcnn_scene6.gif)
+
 By assuming that objects are stable entities that do not pop in and out of existence (i.e., object permanence), MetaCOG recovers the world state from these noisy detections.
 
 MetaCOG's success is not limited to Faster R-CNN. Below are the outputs of RetinaNet on another scene from our dataset.
@@ -15,8 +17,12 @@ MetaCOG's success is not limited to Faster R-CNN. Below are the outputs of Retin
 
 
 And here are MetaCOG's inferences about the objects in the scene:
+
 ![metacog_retinanet_scene36.gif](demos/metacog_retinanet_scene36.gif)
-MetaCOG has successfully corrected RetinaNet's...
+
+MetaCOG has successfully corrected RetinaNet's mistakes by filtering out the erroneous TV halluncinations, filling in missed detections of the chair and the bowl, and correcting misdetections (like mistaking the chair for a potted plant).
+
+
 
 This repository is organized as follows.
 
