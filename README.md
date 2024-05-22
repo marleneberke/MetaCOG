@@ -1,6 +1,6 @@
 # MetaCOG
 
-To Reviewers: The material referenced in the Rebuttal is located in the Rebuttal Material folder. The names of the folders within should be self-explanatory. Thank you for taking a look!
+This is the repo containing the data and code to accompany the 2024 UAI paper "MetaCOG: AHierarchical Probabilistic Model for Learning Meta-Cognitive Visual Representations."
 
 Please see the demos folder for gifs of MetaCOG's inferences compared to its inputs.
 The faster_rcnn_scene6.gif shows the outputs of faster_rcnn. The metacog_faster_rcnn_scene6.gif shows MetaCOG inferences about that same scene based on its inputs from faster_rcnn. Likewise for retinanet in retinanet_scene36.gif and metacog_retinanet_scene36.gif.
