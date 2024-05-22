@@ -2,6 +2,13 @@
 
 This is the repo containing the data and code to accompany the 2024 UAI paper "MetaCOG: AHierarchical Probabilistic Model for Learning Meta-Cognitive Visual Representations."
 
+The gif below shows the output of the neural object detector Faster R-CNN on a scene from our dataset. 
+![faster_rcnn_scene6.gif](demos/faster_rcnn_scene6.gif)
+Not how...
+
+But, using only the detections output by Faster R-CNN and the camera trajectory, MetaCOG is able to successfully infer what objects are where in the scene:
+![metacog_faster_rcnn_scene6.gif](demos/metacog_faster_rcnn_scene6.gif)
+
 Please see the demos folder for gifs of MetaCOG's inferences compared to its inputs.
 The faster_rcnn_scene6.gif shows the outputs of faster_rcnn. The metacog_faster_rcnn_scene6.gif shows MetaCOG inferences about that same scene based on its inputs from faster_rcnn. Likewise for retinanet in retinanet_scene36.gif and metacog_retinanet_scene36.gif.
 
