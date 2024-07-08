@@ -1,6 +1,6 @@
 # MetaCOG
 
-This is the repo containing the data and code to accompany the 2024 UAI paper MetaCOG: [A Hierarchical Probabilistic Model for Learning Meta-Cognitive Visual Representations](./MetaCOG_UAI_2024) by [Marlene Berke](https://marleneberke.github.io/), Zhangir Azerbayev, Mario Belledonne, Zenna Tavares, and [Julian Jara-Ettinger](https://compdevlab.yale.edu/).
+This is the repo containing the data and code to accompany the 2024 UAI paper MetaCOG: [A Hierarchical Probabilistic Model for Learning Meta-Cognitive Visual Representations](./MetaCOG_UAI_2024.pdf) by [Marlene Berke](https://marleneberke.github.io/), Zhangir Azerbayev, Mario Belledonne, Zenna Tavares, and [Julian Jara-Ettinger](https://compdevlab.yale.edu/).
 
 ## Demos
 The gif below shows the output of the neural object detector Faster R-CNN on a scene from our dataset: 
